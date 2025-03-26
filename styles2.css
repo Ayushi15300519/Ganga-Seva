@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/blue_53876-88970.jpg) ;
+    color: Black;}
+.head {font-size: 50px;
+       color:black;}
+img {height: 200px;
+width: 200px;
+border-radius: 50%;}
+header {
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(4px);
+}
+nav {
+    list-style: none;
+    background-color: bisque;
+    padding: 15px;
+    position: static;}
+
+nav a {
+    font-weight: bolder;
+    color:black;
+    width:100;
+    margin:30px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+nav a:hover {
+    background-color:black;
+    color:white;
+}
+footer {
+    background:bisque;
+    color: black;
+    padding: 10px;
+}
+.namami p{
+    font-size: larger;
+}
